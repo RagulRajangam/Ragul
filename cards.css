@@ -1,0 +1,48 @@
+*{
+    background-color: #fff;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+.cards{
+    transition: transform 0.6s ease;
+    display: inline-flex;
+    gap:10px;
+    margin-top: 10%;
+}
+.main{
+    box-shadow: 0px 5px 5px;
+    height: 450px;
+    width: 450px;
+    justify-content: center;
+    justify-items: center;
+}
+.main img{
+    height: 270px;
+    width: 450px;
+}
+.main h1{
+    text-align: left;
+    font-weight: 200;
+    padding: 10px;
+}
+.main p{
+    font-size: 0.7rem;
+    margin-top: -30px;
+}
+.main a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 60px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 5px;
+    padding: 5px;
+    
+}
+.main a:hover{
+    background-color: aqua;
+}
+.cards:hover{
+    transform: translateY(-25px);
+}
